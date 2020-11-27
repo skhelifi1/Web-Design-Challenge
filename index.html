@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -24,28 +24,33 @@
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Latitude vs. Temperature</a>
-                <a class="dropdown-item" href="#">Latitude vs. Humidity</a>
-                <a class="dropdown-item" href="#">Latitude vs. Cloudiness</a>
-                <a class="dropdown-item" href="#">Latitude vs. Wind Speed</a>
+                <a class="dropdown-item" href="LT.html">Latitude vs. Temperature</a>
+                <a class="dropdown-item" href="LH.html">Latitude vs. Humidity</a>
+                <a class="dropdown-item" href="LC.html">Latitude vs. Cloudiness</a>
+                <a class="dropdown-item" href="LW.html">Latitude vs. Wind Speed</a>
               </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Comparison</a>
+                <a class="nav-link" href="Comp.html">Comparison</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Data</a>
+                <a class="nav-link" href="data.html">Data</a>
               </li>
           </ul>
         </div>
       </nav>
   <!-- Creates the Overall Grid -->
   <div class="container">
+    <figure class="box box-1">Box 1</figure>
+    <figure class="box box-2">Box 2</figure>
+    <figure class="box box-3">Box 3</figure>
+    <figure class="box box-4">Box 4</figure>
+  </div>
 
     <!-- Row 1 -->
     <div class="row">
       <div class="col-md-12">
-        <h1>Summary: Latitude vs Temperature</h1>
+        <h1>Summary: Latitude vs Weather</h1>
       </div>
 
       <img src="Images/Lat vs Temperature.PNG" alt="Plot of Latitude vs Temperature" class="img-fluid img-thumbnail">
