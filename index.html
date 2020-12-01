@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Latitude</a>
         <button class="navbar-toggler btn-primary btn-lg" id="navbarNavDropdown" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,10 @@
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="LT.html">Latitude vs. Temperature</a>
-                <a class="dropdown-item" href="LH.html">Latitude vs. Humidity</a>
-                <a class="dropdown-item" href="LC.html">Latitude vs. Cloudiness</a>
-                <a class="dropdown-item" href="LW.html">Latitude vs. Wind Speed</a>
+                <a class="dropdown-item" href="LT.html">Temperature</a>
+                <a class="dropdown-item" href="LH.html">Humidity</a>
+                <a class="dropdown-item" href="LC.html">Cloudiness</a>
+                <a class="dropdown-item" href="LW.html">Wind-Speed</a>
               </div>
             </li>
             <li class="nav-item">
@@ -48,7 +48,7 @@
             <header class="header"></header>
                 <h1>Summary: Latitude vs. Weather</h1>
                 <hr>
-                <img class="img-sz" src="Images_Data/Lat vs Temperature.PNG" alt="Plot of Latitude vs Temperature" align="left" margin= "auto">
+                <img class="img-sz" src="Images_Data/Temperature.PNG" alt="Plot of Latitude vs Temperature" style="align: left; margin: auto;">
                 500 cities were randomly selected from around the world using latitudes and longitudes. City names were then collected using citipy. Cities names were applied in Weather API to obtain weather details such as humidity, temperature, Cloudiness and wind speed. This information was gathered to analyze the effects of latitudes on the weather patterns. A series of scatter plots and linear regression were used to plot Temparature,  Humidity %, Cloudiness% and Wind Speed Vs Latitudes. A few observations were then drawn about the trends of the weather using the equator as a location reference. 
                 
         </div>
@@ -61,26 +61,28 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                     Max Temp <br>
-                    <a href="LT.html"><img class="img-sz" src="Images_Data/Lat vs Temperature.PNG" alt="Temperature plot"></a>
+                    <a href="LT.html"><img class="img-sz" src="Images_Data/Temperature.PNG" alt="Temperature plot"></a>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                     Humidity <br>
-                    <a href="LH.html"><img class="img-sz" src="Images_Data/Lat vs Humidity.PNG" alt="Humidity Plot"></a>
+                    <a href="LH.html"><img class="img-sz" src="Images_Data/Humidity.PNG" alt="Humidity Plot"></a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                     Cloudiness <br>
-                    <a href="LC.html"><img class="img-sz" src="Images_Data/Lat vs Cloudiness.PNG" alt="Cloudiness plot"></a>
+                    <a href="LC.html"><img class="img-sz" src="Images_Data/Cloudiness.PNG" alt="Cloudiness plot"></a>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                     Wind Speed <br>
-                    <a href="LW.html"><img class="img-sz" src="Images_Data/Lat vs Wind Speed.PNG" alt="Wind Speed plot"></a>
+                    <a href="LW.html"><img class="img-sz" src="Images_Data/Wind-Speed.PNG" alt="Wind Speed plot"></a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body> 
 </html>
